@@ -1,0 +1,92 @@
+@import url("https://fonts.cdnfonts.com/css/century-gothic");
+* {
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+body {
+  font-family: "Century Gothic", sans-serif;
+}
+/* common css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 16px;
+  background-color: black;
+}
+.header .menu ul,
+.header .auth ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  gap: 10px;
+  margin-bottom: 0;
+}
+.header .menu ul li a {
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0);
+  font-size: 18px;
+  padding: 5px 16px;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+.header .menu ul li a.active {
+  border: 1px solid rgb(255, 255, 255);
+}
+
+/* footer */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 16px;
+  background-color: black;
+  color: #fff;
+  font-size: 16px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-bottom: 0;
+}
+
+/* footer */
+
+/* auth */
+.form {
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form form {
+  padding: 20px 30px;
+  max-width: 600px;
+  margin: 0 auto;
+  box-shadow: 0px 0px 20px 0px rgb(201, 201, 201);
+}
+.form form h1 {
+  font-size: 30px;
+  line-height: 26px;
+  margin-bottom: 1rem;
+}
+.form {
+}
+.form {
+}
+.form {
+}
+.form {
+}
+.form {
+}
+/* auth */
